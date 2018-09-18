@@ -1,0 +1,4 @@
+.idea/*
+target/*
+myerp-dao.iml
+/src/main/resources/etc/conf/*
