@@ -1,6 +1,6 @@
-package com.application.admin.controller;
+package com.application.controller.admin;
 
-import com.application.admin.orm.ServerPortSetting;
+import com.application.orm.admin.ServerPortSetting;
 import com.application.system.core.controller.MyErpController;
 import com.application.system.core.controller.vo.ServiceResponseVo;
 import com.application.system.core.dao.MongoDao;
@@ -16,10 +16,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @auther ttm
- * @date 2018/9/17
- */
 @Controller
 @RequestMapping("serverSetting")
 public class ServerPortSettingMongoController extends MyErpController {

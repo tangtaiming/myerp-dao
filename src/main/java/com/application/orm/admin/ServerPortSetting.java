@@ -1,10 +1,12 @@
-package com.application.admin.orm;
+package com.application.orm.admin;
+
+import java.io.Serializable;
 
 /**
  * @auther ttm
  * @date 2018/9/17
  */
-public class ServerPortSetting {
+public class ServerPortSetting implements Serializable {
     private Integer id;
     private String code;
     private String address;

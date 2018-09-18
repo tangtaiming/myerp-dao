@@ -9,5 +9,13 @@
        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
+    <bean id="commonDao" class="com.application.system.core.dao.CommonDao"></bean>
+
+    <bean id="mongoDao" class="com.application.system.core.dao.MongoDao"></bean>
+
+    <bean name="serverPortSettingMongoDao" class="com.application.dao.admin.ServerPortSettingMongoDao"></bean>
+
+    <bean name="serverPortSettingMongoServiceImpl" class="com.application.service.admin.impl.ServerPortSettingMongoServiceImpl"></bean>
+
 
 </beans>
