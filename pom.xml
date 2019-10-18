@@ -18,7 +18,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <spring.version>4.3.11.RELEASE</spring.version>
-    <org.apache.solr>4.10.3</org.apache.solr>
+    <org.apache.solr>8.2.0</org.apache.solr>
   </properties>
 
   <dependencies>
